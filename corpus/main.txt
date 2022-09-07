@@ -1,0 +1,54 @@
+======================
+directive attr
+======================
+<div></div>
+----
+(component
+    (element
+    (start_tag
+        (tag_name))
+    (end_tag
+        (tag_name))))
+
+
+
+======================
+row text
+======================
+<h1>阿斯达阿萨德</h1>
+-----------------------
+
+(component 
+    (element
+    (start_tag
+        (tag_name))
+    (text)
+    (end_tag
+        (tag_name))))
+
+=================
+interpolation
+=================
+<div>
+    {{sas}}
+</div>
+-----------------
+(component 
+    (element
+    (start_tag
+        (tag_name))
+    (text)
+    (interpolation
+        (raw_text))
+    (text)
+    (end_tag
+        (tag_name)))
+)
+
+=================
+interpolation
+=================
+<div v-if='aasd==asd'>
+    {{sas}}
+</div>
+-----------------
