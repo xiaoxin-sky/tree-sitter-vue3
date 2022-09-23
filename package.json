@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "nan": "^2.16.0",
     "tree-sitter-cli": "^0.20.7"

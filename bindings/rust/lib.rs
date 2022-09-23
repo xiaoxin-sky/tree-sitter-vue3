@@ -47,6 +47,6 @@ mod tests {
         let mut parser = tree_sitter::Parser::new();
         parser
             .set_language(super::language())
-            .expect("Error loading YOUR_LANGUAGE_NAME language");
+            .expect("Error loading vue3 grammar");
     }
 }
