@@ -7,7 +7,8 @@
     "generate": "tree-sitter generate",
     "test": "tree-sitter test",
     "build": "tree-sitter generate && node-gyp build",
-    "wasm": "tree-sitter build-wasm"
+    "wasm": "tree-sitter build-wasm",
+    "ui": "tree-sitter web-ui"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,14 @@
   "dependencies": {
     "nan": "^2.16.0",
     "tree-sitter-cli": "^0.20.7"
-  }
+  },
+  "tree-sitter": [
+    {
+      "scope": "text.vue.basic",
+      "file-types": [
+        "vue"
+      ],
+      "injection-regex": "vue"
+    }
+  ]
 }
