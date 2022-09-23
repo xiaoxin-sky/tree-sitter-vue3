@@ -1,7 +1,7 @@
 [package]
 name = "tree-sitter-vue3"
 description = "vue3 grammar for the tree-sitter parsing library"
-version = "0.0.2"
+version = "0.0.3"
 keywords = ["incremental", "parsing", "vue3"]
 categories = ["parsing", "text-editors"]
 repository = "https://github.com/xiaoxin-sky/tree-sitter-vue3"
